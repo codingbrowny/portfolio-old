@@ -1,18 +1,23 @@
 import React from "react";
-import { Card, Button, Container } from "react-bootstrap";
+import { Card, Container, Row, Col } from "react-bootstrap";
+import './about.css';
 
 const About = () => {
   return (
-    <Container>
+    <Container className="about-container">
       <Card style={{ width: "100%" }}>
-        <Card.Img variant="top" src="holder.js/100px180" />
         <Card.Body>
-          <Card.Title>Card Title</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <Card.Title>About</Card.Title>
+          <Row>
+            <Col sm={8}>
+              I specialize in crafting mobile and web apps of high quality to
+              solve business problems. I love product development and take time
+              to think about why a product should even exist, why to use a
+              particular tech stack to develop a product and where the product
+              is going.
+            </Col>
+            <Col sm={4}>MY PIC</Col>
+          </Row>
         </Card.Body>
       </Card>
     </Container>
