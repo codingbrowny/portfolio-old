@@ -1,0 +1,15 @@
+/* .hero-container {
+  width: 100vw;
+  position: absolute;
+  display: flex;
+  align-items: center;
+} */
+.hero-container {
+  background-image: url(https://images4.alphacoders.com/114/1144863.jpg);
+  background-size: cover;
+  min-height: 70vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  align-items: center;
+}

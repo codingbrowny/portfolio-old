@@ -1,0 +1,11 @@
+.navbar-container {
+    position: absolute;
+    width: 100vw;
+    z-index: 1;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+/* .site-brand {
+    color: black;
+} */
