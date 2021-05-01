@@ -1,9 +1,9 @@
-import Navb from "./components/navbar/nav";
+import Navigationbar from "./components/ui/navbar/nav";
 
 function App() {
   return (
     <div className="App">
-     <Navb />
+     <Navigationbar />
     </div>
   );
 }

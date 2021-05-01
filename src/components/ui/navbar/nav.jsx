@@ -1,7 +1,7 @@
 import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
 
-const Navb = () => {
+const Navigationbar = () => {
   return (
     <div>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
@@ -33,4 +33,4 @@ const Navb = () => {
   );
 };
 
-export default Navb;
+export default Navigationbar;
