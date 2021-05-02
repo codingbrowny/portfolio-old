@@ -11,3 +11,13 @@
   align-items: center;
   /* box-sizing: border-box; */
 }
+
+.her-row-contianer {
+  justify-content: space-between;
+}
+
+.profile-on-hero {
+  min-height: 10vh;
+  width: 20vw;
+  border-radius: 50%;
+}

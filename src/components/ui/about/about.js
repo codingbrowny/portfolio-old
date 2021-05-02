@@ -5,7 +5,7 @@ import "./about.css";
 const About = () => {
   return (
     <Container className="about-container">
-      <Card style={{ width: "100%" }} border="primary" className="about-card">
+      <Card style={{ width: "100%" }} className="about-card">
         <Card.Body>
           <Row className="about-card-row">
             <Col sm={6}>
@@ -20,7 +20,14 @@ const About = () => {
             </Col>
             <Col sm={4}>
               <Card.Title>Basic Info</Card.Title>
-              <p className="about-card-col-body">Name : Browny</p>
+              <Row>
+                <Col sm={4}>Name:</Col>
+                <Col sm={6}>Browny Wirekoh Mensah</Col>
+                <Col sm={4}> Age:</Col>
+                <Col sm={6}> 22</Col>
+                <Col sm={4}> Age:</Col>
+                <Col sm={6}> 22</Col>
+              </Row>
             </Col>
           </Row>
         </Card.Body>
