@@ -1,4 +1,12 @@
 .about-container {
+    margin-top: 105px;
     box-sizing: border-box;
-    box-shadow: ;
+}
+
+.about-card {
+    box-sizing: border-box;
+}
+
+.about-card-row {
+    justify-content: space-between;
 }

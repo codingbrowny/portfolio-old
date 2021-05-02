@@ -1,11 +1,12 @@
 import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
 import "./navbar.css";
+// import About from '../about/about'
 
 const Navigationbar = () => {
   return (
     <div className="navbar-container">
-      <Navbar collapseOnSelect expand="lg" variant="light">
+      <Navbar collapseOnSelect expand="lg" variant="light" fixed="top">
         <div className="container">
           <Navbar.Brand href="#home" className="site-brand">
             Codingbrowny

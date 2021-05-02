@@ -1,4 +1,5 @@
 .navbar-container {
+    box-sizing: border-box;
     position: absolute;
     width: 100vw;
     z-index: 1;
