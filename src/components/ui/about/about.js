@@ -8,7 +8,7 @@ const About = () => {
       <Card style={{ width: "100%" }} className="about-card">
         <Card.Body>
           <Row className="about-card-row">
-            <Col sm={6}>
+            <Col sm={7}>
               <Card.Title>About</Card.Title>
               <p className="about-card-col-body">
                 I specialize in crafting mobile and web apps of high quality to
@@ -18,11 +18,11 @@ const About = () => {
                 product is going.
               </p>
             </Col>
-            <Col sm={4}>
+            <Col sm={5}>
               <Card.Title>Basic Info</Card.Title>
-              <Row>
-                <Col sm={4}>Name:</Col>
-                <Col sm={6}>Browny Wirekoh Mensah</Col>
+              <Row className="basic-info-row">
+                <Col sm={4}>Email</Col>
+                <Col sm={6}>codingbrowny@gmail.com</Col>
                 <Col sm={4}> Age:</Col>
                 <Col sm={6}> 22</Col>
                 <Col sm={4}> Age:</Col>
