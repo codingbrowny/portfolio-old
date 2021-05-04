@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
 :root {
   --primaryColor: #0080ff ;
   /* #1B75FD */
@@ -33,7 +35,8 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: "Poppins", sans-serif; */
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -539,7 +542,10 @@ section {
 
 #about .about-container .background {
   min-height: 300px;
-  background: url(../img/about-img.jpg) center top no-repeat;
+  background: url(../img/about-img-first.jpeg) center top no-repeat;
+  background-size: contain;
+  background-attachment: scroll;
+  background-position: center;
   margin-bottom: 10px;
 }
 
