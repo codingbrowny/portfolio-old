@@ -18,6 +18,7 @@ body {
   scroll-behavior: smooth;
 }
 
+
 a {
   color: var(--primaryColor);
   text-decoration: none;
